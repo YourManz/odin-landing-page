@@ -1,6 +1,6 @@
 * {
-    margin-left:25px;
-    margin-right:25px;
+    margin-left:80px;
+    margin-right:80px;
     margin-top: 0px;
 }
 
@@ -16,7 +16,8 @@
     align-items:baseline;
     background-color: #1F2937;
     color:white;
-    /* font-family: ; */
+    margin-bottom:0px;
+    font-family: 'Roboto', arial;
 }
 
 .nav-bar .header-logo {
@@ -25,10 +26,52 @@
 
 .main-page {
     display:flex;
-
+    background-color: #1F2937;
+    margin-top:0px;
+    padding-top: 120px;
+    padding-bottom:120px;
+    flex:1;
 }
 
 .main-page .stack-on-left {
     display:flex;
     flex-direction: column;
+    margin-left:0px;
+    margin-right:0px;
+    font-family: 'Roboto', arial;
+}
+
+.main-page .stack-on-left .this-website-is-awesome {
+    font-weight:bolder;
+    font-size:48px;
+    color:#F9FAF8;
+}
+
+.main-page .stack-on-left .filler-text {
+    font-weight:bolder;
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.main-page .stack-on-left .sign-up-button {
+    align-self: flex-start;
+    border:none;
+    color:white;
+    background-color: #3b82f6;
+    border-radius:8px;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.main-page .placeholder-container {
+    display:flex;
+}
+
+.main-page .placeholder-image {
+    background-color:#6d747d;
+    color:white;
+    margin-left:0px;
+    margin-right:15px;
+    padding:100px;
 }
