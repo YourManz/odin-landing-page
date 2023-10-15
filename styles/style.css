@@ -4,6 +4,11 @@
     margin-top: 0px;
 }
 
+.whole-page {
+    display:flex;
+    flex-direction:column;
+}
+
 .nav-bar {
     padding-top:8px;
     display:flex;
@@ -16,4 +21,14 @@
 
 .nav-bar .header-logo {
     flex: 3 1 auto;
+}
+
+.main-page {
+    display:flex;
+
+}
+
+.main-page .stack-on-left {
+    display:flex;
+    flex-direction: column;
 }
