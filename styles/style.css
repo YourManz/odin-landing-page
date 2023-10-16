@@ -26,15 +26,17 @@
 
 .main-page {
     display:flex;
+    flex:1;
     background-color: #1F2937;
     margin-top:0px;
     padding-top: 120px;
     padding-bottom:120px;
-    flex:1;
+    align-items:stretch;
 }
 
 .main-page .stack-on-left {
     display:flex;
+    flex:1;
     flex-direction: column;
     margin-left:0px;
     margin-right:0px;
@@ -66,12 +68,34 @@
 
 .main-page .placeholder-container {
     display:flex;
+    flex:1;
+    background-color:#6d747d;
+    justify-content:center;
+    align-items:center;
 }
 
 .main-page .placeholder-image {
-    background-color:#6d747d;
     color:white;
-    margin-left:0px;
-    margin-right:15px;
-    padding:100px;
+}
+
+
+.random-icons {
+    display:flex;
+    flex-direction:column;
+}
+
+.random-icons .header {
+    align-self:center;
+}
+
+.random-icons .box-div {
+    display:flex;
+    flex-direction:column;
+}
+
+.random-icons .box-div .placeholder-div {
+    height:90px;
+    width:90px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
