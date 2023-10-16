@@ -138,3 +138,18 @@
     font-weight:bold;
     font-size:22px;
 }
+
+.call-to-action {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.call-to-action .call-to-action-box {
+    display:flex;
+}
+
+.call-to-action .call-to-action-box .boring-text {
+    display:flex;
+    
+}
